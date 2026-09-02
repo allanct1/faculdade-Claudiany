@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.login-container {
+    width: 400px;
+    background-color: white;
+
+    padding: 35px 40px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 25px;
+}
+
+.logo span {
+    color: #218c74;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo p {
+    color: #218c74;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    color: #444;
+
+    margin-bottom: 6px;
+}
+
+input {
+    height: 42px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    padding: 0 12px;
+    font-size: 14px;
+
+    margin-bottom: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #218c74;
+    box-shadow: 0 0 0 2px rgba(33, 140, 116, 0.15);
+}
+
+.esqueci {
+    text-align: right;
+
+    font-size: 12px;
+    color: #218c74;
+
+    text-decoration: none;
+
+    margin-top: -8px;
+    margin-bottom: 18px;
+}
+
+button {
+    height: 42px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #218c74;
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b755f;
+}
+
+.cadastro {
+    text-align: center;
+
+    margin-top: 22px;
+
+    font-size: 13px;
+    color: #555;
+}
+
+.cadastro a {
+    color: #218c74;
+    font-weight: bold;
+
+    text-decoration: none;
+}
